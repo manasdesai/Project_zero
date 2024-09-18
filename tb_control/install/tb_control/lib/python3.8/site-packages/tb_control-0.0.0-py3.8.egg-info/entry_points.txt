@@ -1,2 +1,0 @@
-[console_scripts]
-tb_openLoop = tb_control.tb_openLoop:main
