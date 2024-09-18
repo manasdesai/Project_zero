@@ -1,0 +1,24 @@
+[1.637s] Invoking command in '/home/manas/tb_control_new/src/tb_control': PYTHONPATH=/home/manas/tb_control_new/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_control build --build-base /home/manas/tb_control_new/build/tb_control/build install --record /home/manas/tb_control_new/build/tb_control/install.log --single-version-externally-managed install_data
+[2.330s] running egg_info
+[2.377s] writing ../../build/tb_control/tb_control.egg-info/PKG-INFO
+[2.413s] writing dependency_links to ../../build/tb_control/tb_control.egg-info/dependency_links.txt
+[2.522s] writing entry points to ../../build/tb_control/tb_control.egg-info/entry_points.txt
+[2.599s] writing requirements to ../../build/tb_control/tb_control.egg-info/requires.txt
+[2.633s] writing top-level names to ../../build/tb_control/tb_control.egg-info/top_level.txt
+[2.696s] reading manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[2.696s] writing manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[2.696s] running build
+[2.696s] running build_py
+[2.697s] copying tb_control/tb_openLoop.py -> /home/manas/tb_control_new/build/tb_control/build/lib/tb_control
+[2.697s] running install
+[2.701s] running install_lib
+[2.748s] copying /home/manas/tb_control_new/build/tb_control/build/lib/tb_control/tb_openLoop.py -> /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control
+[2.749s] byte-compiling /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control/tb_openLoop.py to tb_openLoop.cpython-38.pyc
+[2.749s] running install_data
+[2.750s] running install_egg_info
+[2.797s] removing '/home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info' (and everything under it)
+[2.798s] Copying ../../build/tb_control/tb_control.egg-info to /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info
+[2.798s] running install_scripts
+[2.897s] Installing tb_openLoop script to /home/manas/tb_control_new/install/tb_control/lib/tb_control
+[2.897s] writing list of installed files to '/home/manas/tb_control_new/build/tb_control/install.log'
+[2.931s] Invoked command in '/home/manas/tb_control_new/src/tb_control' returned '0': PYTHONPATH=/home/manas/tb_control_new/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_control build --build-base /home/manas/tb_control_new/build/tb_control/build install --record /home/manas/tb_control_new/build/tb_control/install.log --single-version-externally-managed install_data

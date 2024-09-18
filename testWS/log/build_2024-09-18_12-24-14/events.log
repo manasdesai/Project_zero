@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (tb_control) JobQueued: {'identifier': 'tb_control', 'dependencies': OrderedDict()}
+[0.000275] (tb_control) JobStarted: {'identifier': 'tb_control'}
+[0.099495] (-) TimerEvent: {}
+[0.199804] (-) TimerEvent: {}
+[0.300141] (-) TimerEvent: {}
+[0.400471] (-) TimerEvent: {}
+[0.500799] (-) TimerEvent: {}
+[0.601135] (-) TimerEvent: {}
+[0.701459] (-) TimerEvent: {}
+[0.801870] (-) TimerEvent: {}
+[0.902224] (-) TimerEvent: {}
+[1.002579] (-) TimerEvent: {}
+[1.102846] (-) TimerEvent: {}
+[1.203159] (-) TimerEvent: {}
+[1.303457] (-) TimerEvent: {}
+[1.403801] (-) TimerEvent: {}
+[1.504145] (-) TimerEvent: {}
+[1.516200] (tb_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb_control', 'build', '--build-base', '/home/manas/tb_control_new/build/tb_control/build', 'install', '--record', '/home/manas/tb_control_new/build/tb_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/manas/tb_control_new/src/tb_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'WORKON_HOME': '/home/manas/.local/bin/.virtualenvs', 'USER': 'manas', 'SSH_AGENT_PID': '1852', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/manas/testWS/install/turtlebot3_msgs/lib:/home/manas/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/manas/testWS/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/manas', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/manas/tb_control_new/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1740', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/manas/dev_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/manas/tb_control_new/install:/home/manas/tb_control/install:/home/manas/testWS/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'manas', 'SUMO_HOME': '/home/manas/catkin_ws/src/sumo', 'JOURNAL_STREAM': '8:51348', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'manas', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/share/turtlebot3_gazebo/models/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/manas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/manas/catkin_ws/src/sumo/bin:/home/manas/catkin_ws/src/sumo/bin', 'SESSION_MANAGER': 'local/manas-VivoBook-ASUSLaptop-X515EA-X515EA:@/tmp/.ICE-unix/1890,unix/manas-VivoBook-ASUSLaptop-X515EA-X515EA:/tmp/.ICE-unix/1890', 'INVOCATION_ID': 'e7e688bc158247eaae9246872b2ba0dd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/70e9eade_2b78_455a_9a3f_1809c37417be', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manas/tb_control_new/install/tb_control:/home/manas/tb_control/install/tb_control:/home/manas/testWS/install/turtlebot3_teleop:/home/manas/testWS/install/turtlebot3_navigation2:/home/manas/testWS/install/turtlebot3_example:/home/manas/testWS/install/turtlebot3_msgs:/home/manas/testWS/install/turtlebot3_description:/home/manas/testWS/install/turtlebot3_cartographer:/home/manas/testWS/install/ld08_driver:/home/manas/testWS/install/hls_lfcd_lds_driver:/home/manas/testWS/install/dynamixel_sdk_custom_interfaces:/home/manas/testWS/install/dynamixel_sdk:/opt/ros/galactic', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/manas/.local/bin/.virtualenvs', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUALENVWRAPPER_SCRIPT': '/home/manas/.local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/manas/tb_control_new/build/tb_control', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/manas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'VIRTUALENVWRAPPER_VIRTUALENV': '/home/manas/.local/bin/virtualenv', 'PYTHONPATH': '/home/manas/tb_control_new/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages:/home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages:/home/manas/tb_control/install/tb_control/lib/python3.8/site-packages:/home/manas/testWS/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/manas/testWS/install/turtlebot3_example/lib/python3.8/site-packages:/home/manas/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/manas/testWS/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/manas/catkin_ws/src/sumo/tools:/home/manas/catkin_ws/src/sumo/tools:', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/manas/testWS/install/turtlebot3_navigation2:/home/manas/testWS/install/turtlebot3_description:/home/manas/testWS/install/turtlebot3_cartographer:/home/manas/testWS/install/ld08_driver:/home/manas/testWS/install/hls_lfcd_lds_driver:/home/manas/testWS/install/dynamixel_sdk'}, 'shell': False}
+[1.604276] (-) TimerEvent: {}
+[1.704624] (-) TimerEvent: {}
+[1.804954] (-) TimerEvent: {}
+[1.905267] (-) TimerEvent: {}
+[2.005571] (-) TimerEvent: {}
+[2.105874] (-) TimerEvent: {}
+[2.206183] (-) TimerEvent: {}
+[2.211079] (tb_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.211413] (tb_control) StdoutLine: {'line': b'creating ../../build/tb_control/tb_control.egg-info\n'}
+[2.257871] (tb_control) StdoutLine: {'line': b'writing ../../build/tb_control/tb_control.egg-info/PKG-INFO\n'}
+[2.292377] (tb_control) StdoutLine: {'line': b'writing dependency_links to ../../build/tb_control/tb_control.egg-info/dependency_links.txt\n'}
+[2.306339] (-) TimerEvent: {}
+[2.394514] (tb_control) StdoutLine: {'line': b'writing entry points to ../../build/tb_control/tb_control.egg-info/entry_points.txt\n'}
+[2.406505] (-) TimerEvent: {}
+[2.470643] (tb_control) StdoutLine: {'line': b'writing requirements to ../../build/tb_control/tb_control.egg-info/requires.txt\n'}
+[2.505441] (tb_control) StdoutLine: {'line': b'writing top-level names to ../../build/tb_control/tb_control.egg-info/top_level.txt\n'}
+[2.506564] (-) TimerEvent: {}
+[2.506689] (tb_control) StdoutLine: {'line': b"writing manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'\n"}
+[2.567051] (tb_control) StdoutLine: {'line': b"reading manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'\n"}
+[2.567512] (tb_control) StdoutLine: {'line': b"writing manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'\n"}
+[2.567655] (tb_control) StdoutLine: {'line': b'running build\n'}
+[2.567745] (tb_control) StdoutLine: {'line': b'running build_py\n'}
+[2.567853] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/build/tb_control/build\n'}
+[2.567950] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/build/tb_control/build/lib\n'}
+[2.567999] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/build/tb_control/build/lib/tb_control\n'}
+[2.568046] (tb_control) StdoutLine: {'line': b'copying tb_control/tb_openLoop.py -> /home/manas/tb_control_new/build/tb_control/build/lib/tb_control\n'}
+[2.568093] (tb_control) StdoutLine: {'line': b'copying tb_control/__init__.py -> /home/manas/tb_control_new/build/tb_control/build/lib/tb_control\n'}
+[2.568156] (tb_control) StdoutLine: {'line': b'running install\n'}
+[2.571746] (tb_control) StdoutLine: {'line': b'running install_lib\n'}
+[2.606639] (-) TimerEvent: {}
+[2.618806] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control\n'}
+[2.618965] (tb_control) StdoutLine: {'line': b'copying /home/manas/tb_control_new/build/tb_control/build/lib/tb_control/tb_openLoop.py -> /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control\n'}
+[2.619018] (tb_control) StdoutLine: {'line': b'copying /home/manas/tb_control_new/build/tb_control/build/lib/tb_control/__init__.py -> /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control\n'}
+[2.619284] (tb_control) StdoutLine: {'line': b'byte-compiling /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control/tb_openLoop.py to tb_openLoop.cpython-38.pyc\n'}
+[2.619927] (tb_control) StdoutLine: {'line': b'byte-compiling /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control/__init__.py to __init__.cpython-38.pyc\n'}
+[2.620039] (tb_control) StdoutLine: {'line': b'running install_data\n'}
+[2.620094] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/install/tb_control/share/ament_index\n'}
+[2.620143] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/install/tb_control/share/ament_index/resource_index\n'}
+[2.620209] (tb_control) StdoutLine: {'line': b'creating /home/manas/tb_control_new/install/tb_control/share/ament_index/resource_index/packages\n'}
+[2.620267] (tb_control) StdoutLine: {'line': b'copying resource/tb_control -> /home/manas/tb_control_new/install/tb_control/share/ament_index/resource_index/packages\n'}
+[2.620305] (tb_control) StdoutLine: {'line': b'copying package.xml -> /home/manas/tb_control_new/install/tb_control/share/tb_control\n'}
+[2.620342] (tb_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.668637] (tb_control) StdoutLine: {'line': b'Copying ../../build/tb_control/tb_control.egg-info to /home/manas/tb_control_new/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info\n'}
+[2.669058] (tb_control) StdoutLine: {'line': b'running install_scripts\n'}
+[2.706718] (-) TimerEvent: {}
+[2.766148] (tb_control) StdoutLine: {'line': b'Installing tb_openLoop script to /home/manas/tb_control_new/install/tb_control/lib/tb_control\n'}
+[2.766313] (tb_control) StdoutLine: {'line': b"writing list of installed files to '/home/manas/tb_control_new/build/tb_control/install.log'\n"}
+[2.800427] (tb_control) CommandEnded: {'returncode': 0}
+[2.806873] (tb_control) JobEnded: {'identifier': 'tb_control', 'rc': 0}
+[2.807158] (-) TimerEvent: {}
+[2.807203] (-) EventReactorShutdown: {}
